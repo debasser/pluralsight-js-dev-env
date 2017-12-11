@@ -8,7 +8,7 @@ environment:
 install:
   # Get the latest stable version of node.js or io.js
   -ps: Install-Product node $env:nodejs_version
-  # install modules
+  # install modules (this is what is failing)
   - npm install
 
 # Post-install test scripts
